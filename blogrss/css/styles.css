@@ -1,0 +1,59 @@
+a, a:hover, a:visited {
+    color: #2F5E92;
+    text-decoration: none;
+}
+
+.uiBox {
+
+}
+
+.uiBox .title {
+	background-color: #f0f0f0;
+	border-bottom: 1px solid #cccccc;
+	-webkit-box-shadow: 0 1px 2px rgba(13, 13, 13, 0.2);
+	-moz-box-shadow: 0 1px 2px rgba(13, 13, 13, 0.2);
+	box-shadow: 0 1px 2px rgba(13, 13, 13, 0.2);
+	-webkit-border-radius: 4px 4px 0 0;
+	-moz-border-radius: 4px 4px 0 0;
+	border-radius: 4px 4px 0 0;
+	padding: 8px 10px;
+	line-height: 20px;
+	margin: 0;
+	word-wrap: break-word;
+}
+
+.uiBox .uiContentBox {
+	padding: 20px;
+	width: 300px;
+}
+
+.blog-gadget ul li {
+	display: block;
+	
+}
+[class^="blog-icon"]{
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  vertical-align: text-top;
+  background-image: url("../images/blog-icon.png");
+  background-repeat: no-repeat;
+  margin-right: 5px;
+}
+.blog-gadget .lastest  li{
+	padding-bottom: 12px;
+	margin: 0 0 10px 0;
+	border-bottom: 1px solid #dedede;
+}
+.blog-gadget .categories  li{
+	float: left;
+	width: 50%;
+	margin: 5px 0;
+}
+.blog-icon-check {
+	background-position: 0px 0px;
+}
+.blog-icon-cat {
+	background-position: -25px -2px;
+}

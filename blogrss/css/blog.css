@@ -1,0 +1,35 @@
+a, a:hover, a:visited {
+    color: #2F5E92;
+    text-decoration: none;
+}
+
+.blog-gadget ul li {
+	display: block;
+	
+}
+[class^="blog-icon"]{
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  vertical-align: text-top;
+  background-image: url("../images/blog-icon.png");
+  background-repeat: no-repeat;
+  margin-right: 5px;
+}
+.blog-gadget .lastest  li{
+	padding-bottom: 12px;
+	margin: 0 0 10px 0;
+	border-bottom: 1px solid #dedede;
+}
+.blog-gadget .categories  li{
+	float: left;
+	width: 50%;
+	margin: 5px 0;
+}
+.blog-icon-check {
+	background-position: 0px 0px;
+}
+.blog-icon-cat {
+	background-position: -25px -2px;
+}
